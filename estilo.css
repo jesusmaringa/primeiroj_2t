@@ -30,8 +30,31 @@ h1 {
   bottom:0;
 }
 .menuPrincipal{
-   position: relative;
+   position: absolute;
    width: 100%;
-   height: 80px;
+   height: 45px;
    background: rgb(157, 170, 187);
+   top: 0;
+   left: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+li a:hover {
+  color: rgb(255, 255, 255);
+  background: black;
 }
