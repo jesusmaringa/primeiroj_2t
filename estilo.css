@@ -100,3 +100,13 @@ li a:hover {
    position: absolute;
    top: 45px;
 }
+#aguia {
+   width: 100%;
+}
+.aguiaLogo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+}
